@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexcent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container header__inner">
+        <!-- Logotype -->
+        <a href="/" class="logo">
+            <img src="./assets/images/logo.png" alt="Nexcent">
+        </a>
+
+        <!-- Header navigation -->
+        <nav class="header__nav" id="mobile-menu" aria-label="Main navigation">
+            <ul>
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/service">Service</a></li>
+                <li><a href="/feature">Feature</a></li>
+                <li><a href="/product">Product</a></li>
+                <li><a href="/testimonial">Testimonial</a></li>
+                <li><a href="/faq">FAQ</a></li>
+            </ul>
+
+            <!-- Account -->
+            <div class="header__account">
+                <button type="button" class="btn btn-ghost">Login</button>
+                <button type="button" class="btn btn-primary">Sign up</button>
+            </div>
+        </nav>
+
+        <!-- Burger-menu -->
+        <button class="burger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__slider">
+                    <div class="hero__track">
+                        <div class="hero__slide hero__container">
+                            <div class="hero__info">
+                                <h1 class="hero__title">Lessons and insights<br><strong>from 8 years</strong></h1>
+                                <p class="hero__description">Where to grow your business as a photographer: site or social media?</p>
+                                <button type="button" class="hero__button btn btn-primary">Register</button>
+                            </div>
+                            <img src="./assets/images/hero-image.png" alt="" class="hero__img">
+                        </div>
+                        <div class="hero__slide hero__container">
+                            <div class="hero__info">
+                                <h2 class="hero__title">Lessons and insights<br><strong>from 8 years</strong></h2>
+                                <p class="hero__description">Where to grow your business as a photographer: site or social media?</p>
+                                <button type="button" class="hero__button btn btn-primary">Register</button>
+                            </div>
+                            <img src="./assets/images/hero-image.png" alt="" class="hero__img">
+                        </div>
+                        <div class="hero__slide hero__container">
+                            <div class="hero__info">
+                                <h2 class="hero__title">Lessons and insights<br><strong>from 8 years</strong></h2>
+                                <p class="hero__description">Where to grow your business as a photographer: site or social media?</p>
+                                <button type="button" class="hero__button btn btn-primary">Register</button>
+                            </div>
+                            <img src="./assets/images/hero-image.png" alt="" class="hero__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__dots">
+                    <button type="button" class="hero__dot is-active" aria-label="Slide 1" aria-current="true"></button>
+                    <button type="button" class="hero__dot" aria-label="Slide 2" aria-current="false"></button>
+                    <button type="button" class="hero__dot" aria-label="Slide 3" aria-current="false"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container clients">
+            <div class="section__header">
+                <h2 class="section__title">Our Clients</h2>
+                <p class="section__description">We have been working with some Fortune 500+ clients</p>
+            </div>
+            <div class="clients__group">
+                <img src="./assets/images/clients/client-1.png" alt="">
+                <img src="./assets/images/clients/client-2.png" alt="">
+                <img src="./assets/images/clients/client-3.png" alt="">
+                <img src="./assets/images/clients/client-4.png" alt="">
+                <img src="./assets/images/clients/client-5.png" alt="">
+                <img src="./assets/images/clients/client-6.png" alt="">
+                <img src="./assets/images/clients/client-7.png" alt="">
+            </div>
+        </section>
+
+        <section class="section container single-system">
+            <h2 class="single-system__title">Manage your entire community in a single system</h2>
+            <p class="single-system__description">Who is Nextcent suitable for?</p>
+            <div class="single-system__group">
+                <div class="single-system__item">
+                    <img src="./assets/images/single-system/membership.png" alt="">
+                    <h3>Membership<br>Organisations</h3>
+                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+                <div class="single-system__item">
+                    <img src="./assets/images/single-system/associations.png" alt="">
+                    <h3>National<br>Associations</h3>
+                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+                <div class="single-system__item">
+                    <img src="./assets/images/single-system/clubs.png" alt="">
+                    <h3>Clubs And<br>Groups</h3>
+                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container pixelgrade">
+            <img class="pixelgrade__img" src="./assets/images/pixelgrade-image.png" alt="">
+            <div class="pixelgrade__info">
+                <h2 class="pixelgrade__title">The unseen of spending three<br>years at Pixelgrade</h2>
+                <p class="pixelgrade__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                <button class="pixelgrade__btn btn btn-primary" type="button">Learn More</button>
+            </div>
+        </section>
+
+        <section class="stats section">
+            <div class="container">
+                <div class="stats__helping helping">
+                    <h2 class="helping__title">Helping a local business reinvent itself</h2>
+                    <p class="helping__description">We reached here with our hard work and dedication</p>
+                </div>
+
+                <div class="stats__info">
+                    <div class="stats__item">
+                        <img src="./assets/images/stats/members.png" alt="">
+                        <div class="item__text">
+                            <h3>2,245,341</h3>
+                            <p>Members</p>
+                        </div>
+                    </div>
+                    <div class="stats__item">
+                        <img src="./assets/images/stats/clubs.png" alt="">
+                        <div class="item__text">
+                            <h3>46,328</h3>
+                            <p>Clubs</p>
+                        </div>
+                    </div>
+                    <div class="stats__item">
+                        <img src="./assets/images/stats/event-booking.png" alt="">
+                        <div class="item__text">
+                            <h3>828,867</h3>
+                            <p>Event Bookings</p>
+                        </div>
+                    </div>
+                    <div class="stats__item">
+                        <img src="./assets/images/stats/payments.png" alt="">
+                        <div class="item__text">
+                            <h3>1,926,436</h3>
+                            <p>Payments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container pixelgrade">
+            <img class="pixelgrade__img" src="./assets/images/design-image.png" alt="">
+            <div class="pixelgrade__info">
+                <h2 class="pixelgrade__title">How to design your site footer like<br>we did</h2>
+                <p class="pixelgrade__description">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                <button class="pixelgrade__btn btn btn-primary" type="button">Learn More</button>
+            </div>
+        </section>
+
+        <section class="product section">
+            <div class="container product-container">
+                <img class="product__img" src="./assets/images/product-photo.png" alt="">
+                <div class="product__info">
+                    <p class="product__description">
+                        Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+                    </p>
+                    <p class="product__author">Tim Smith</p>
+                    <p class="product__association">British Dragon Boat Racing Association</p>
+                    <div class="product__group">
+                        <img src="./assets/images/product-partners/partner-1.png" alt="">
+                        <img src="./assets/images/product-partners/partner-2.png" alt="">
+                        <img src="./assets/images/product-partners/partner-3.png" alt="">
+                        <img src="./assets/images/product-partners/partner-4.png" alt="">
+                        <img src="./assets/images/product-partners/partner-5.png" alt="">
+                        <img src="./assets/images/product-partners/partner-6.png" alt="">
+                        <button class="product__button">Meet all customers<img src="./assets/images/arrow-right.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section marketing">
+            <h2 class="marketing__title">Caring is the new marketing</h2>
+            <p class="marketing__description">
+                The Nexcent blog is the best place to read about the latest membership insights,<br>trends and more. See who's joining the community, read about how our community<br>are increasing their membership income and lot's more.​
+            </p>
+            <div class="marketing__group">
+                <div class="marketing__item">
+                    <img src="./assets/images/marketing/photo-1.png" alt="">
+                    <div class="marketing__info">
+                        <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+                        <button class="product__button">Readmore<img src="./assets/images/arrow-right.png" alt=""></button>
+                    </div>
+                </div>
+
+                <div class="marketing__item">
+                    <img src="./assets/images/marketing/photo-2.png" alt="">
+                    <div class="marketing__info">
+                        <p>What are your safeguarding responsibilities and how can you manage them?</p>
+                        <button class="product__button">Readmore<img src="./assets/images/arrow-right.png" alt=""></button>
+                    </div>
+                </div>
+
+                <div class="marketing__item">
+                    <img src="./assets/images/marketing/photo-3.png" alt="">
+                    <div class="marketing__info">
+                        <p>Revamping the Membership Model with Triathlon<br>Australia</p>
+                        <button class="product__button">Readmore<img src="./assets/images/arrow-right.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <div class="container cta__inner">
+                <h2 class="cta__title">Pellentesque suscipit<br>fringilla libero eu.</h2>
+                <button type="button" class="btn btn-primary cta__button">Get a Demo</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <a href="/" class="logo">
+                    <img src="./assets/images/logo.png" alt="Nexcent">
+                </a>
+                <p class="footer__copyright">Copyright © 2020 Nexcent ltd.<br>All rights reserved</p>
+                <ul class="footer__socials" aria-label="Social media">
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/>
+                                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+                                <circle cx="17.2" cy="6.8" r="1.3" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dribbble.com" target="_blank" rel="noopener" aria-label="Dribbble">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/>
+                                <path d="M6 5.5c4.5 4 7.5 8.5 9 14M20.7 10c-5 1.5-10 1.2-14.5-1.5M3.4 14.5c4.5-1 10-.5 14.5 2.5" stroke="currentColor" stroke-width="1.8"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M21 6.2c-.7.3-1.4.5-2.1.6.8-.5 1.4-1.2 1.6-2.1-.7.4-1.5.7-2.3.9A3.6 3.6 0 0 0 12 7.7c0 .3 0 .6.1.8-3-.1-5.7-1.6-7.5-3.8-.3.6-.5 1.2-.5 1.9 0 1.3.6 2.4 1.6 3-.6 0-1.1-.2-1.6-.4v.1c0 1.8 1.2 3.2 2.9 3.5-.3.1-.6.1-1 .1-.2 0-.5 0-.7-.1.5 1.4 1.8 2.5 3.4 2.5a7.3 7.3 0 0 1-5.4 1.5A10.3 10.3 0 0 0 8.9 19c6.7 0 10.4-5.6 10.4-10.4v-.5c.7-.5 1.3-1.2 1.7-1.9Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <rect x="2.5" y="5.5" width="19" height="13" rx="4" stroke="currentColor" stroke-width="1.8"/>
+                                <path d="M10.5 9.5v5l4.5-2.5-4.5-2.5Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__column">
+                <h3 class="footer__heading">Company</h3>
+                <ul class="footer__links">
+                    <li><a href="/about">About us</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/contact">Contact us</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                    <li><a href="/testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__column">
+                <h3 class="footer__heading">Support</h3>
+                <ul class="footer__links">
+                    <li><a href="/help">Help center</a></li>
+                    <li><a href="/terms">Terms of service</a></li>
+                    <li><a href="/legal">Legal</a></li>
+                    <li><a href="/privacy">Privacy policy</a></li>
+                    <li><a href="/status">Status</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__column footer__subscribe">
+                <h3 class="footer__heading">Stay up to date</h3>
+                <form class="footer__form" action="#" method="post">
+                    <label class="visually-hidden" for="footer-email">Your email address</label>
+                    <input type="email" id="footer-email" name="email" placeholder="Your email address" required>
+                    <button type="submit" aria-label="Subscribe">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M21 3 10 14M21 3l-7 18-4-7-7-4 18-7Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/javascript/main.js"></script>
+</body>
+</html>
