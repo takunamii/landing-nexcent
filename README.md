@@ -4,11 +4,11 @@
 
 **Live Demo:** https://landing-nexcent.netlify.app/
 
-Адаптивный landing page **Nexcent**, созданный по макету из Figma с использованием чистого HTML, CSS и Vanilla JavaScript.
+A responsive corporate landing page built from a Figma design using HTML, CSS, and Vanilla JavaScript.
 
-Проект реализован без фреймворков и сборщиков. Основное внимание уделено responsive design, семантической разметке, современной CSS-вёрстке и интерактивности на JavaScript.
+The project focuses on responsive design, semantic HTML, modern CSS layout techniques, accessibility, and interactive UI without relying on frameworks or external JavaScript libraries.
 
-## ✨ Features
+## Features
 
 * Fully responsive layout
 * Mobile burger menu
@@ -16,14 +16,15 @@
 * Slider navigation
 * Slider autoplay
 * Semantic HTML5
-* CSS Grid & Flexbox
+* CSS Grid and Flexbox
 * Responsive typography with `clamp()`
 * Keyboard-friendly navigation
 * `aria-expanded` support
 * `Esc` key support
+* Click-outside menu handling
 * No JavaScript frameworks or libraries
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * HTML5
 * CSS3
@@ -33,15 +34,15 @@
 * CSS Custom Properties
 * Google Fonts
 
-## 📋 Project Overview
+## Project Overview
 
 Nexcent is a modern corporate landing page based on a Figma design.
 
-The page includes a hero slider, client logos, feature sections, statistics, product information, marketing cards, CTA and footer.
+The page includes a hero section with a slider, client logos, feature sections, statistics, product information, marketing cards, call-to-action sections, and a footer.
 
-The project was built from scratch with a focus on responsive behavior and clean frontend implementation without using UI frameworks.
+The project was built from scratch with a focus on accurate design implementation and responsive behavior across different screen sizes.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 landing-nexcent/
@@ -56,45 +57,41 @@ landing-nexcent/
     └── design.png
 ```
 
-## 🎞️ JavaScript
+## JavaScript
 
-Vanilla JavaScript is used for interactive functionality:
+Vanilla JavaScript is used to implement the interactive functionality of the page.
+
+The main functionality includes:
 
 * mobile navigation;
-* menu open / close behavior;
-* `aria-expanded` state;
-* closing the menu with `Esc`;
+* menu open and close behavior;
+* `aria-expanded` state management;
+* closing the menu with the `Esc` key;
 * closing the menu when clicking outside;
 * hero slider;
 * slide navigation;
 * slider autoplay.
 
-## 📱 Responsive Design
+## Responsive Design
 
-The layout is optimized for screens starting from **320px**.
+The layout is optimized for screen sizes starting from **320px**.
 
 | Breakpoint | Behavior                                |
 | ---------- | --------------------------------------- |
 | `≥ 1100px` | Desktop navigation                      |
 | `≤ 1100px` | Mobile navigation                       |
 | `≤ 920px`  | Main sections switch to a column layout |
-| `≤ 770px`  | Additional content adjustments          |
-| `≤ 450px`  | Footer becomes a single column          |
+| `≤ 770px`  | Additional layout adjustments           |
+| `≤ 450px`  | Footer switches to a single column      |
 | `320px`    | No horizontal overflow                  |
 
-## 🚀 Getting Started
+## Getting Started
 
 No dependencies are required.
 
-Simply open:
+You can open `index.html` directly in your browser.
 
-```text
-index.html
-```
-
-in your browser.
-
-Or start a local server:
+Alternatively, run a local development server:
 
 ```bash
 python -m http.server 8080
@@ -106,7 +103,13 @@ Then open:
 http://localhost:8080
 ```
 
-## 🎨 Design
+You can also use:
+
+```bash
+npx serve .
+```
+
+## Design
 
 The project was implemented based on a Figma design.
 
@@ -116,7 +119,7 @@ The design reference is included in:
 assets/design.png
 ```
 
-## 🎯 Purpose
+## Project Goals
 
 This project was created to practice:
 
@@ -124,10 +127,11 @@ This project was created to practice:
 * semantic HTML;
 * modern CSS;
 * CSS Grid and Flexbox;
+* responsive typography;
 * Vanilla JavaScript;
 * accessibility;
 * Figma-to-code implementation.
 
-## 📄 License
+## License
 
 This project is intended for educational and portfolio purposes.
