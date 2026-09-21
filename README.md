@@ -1,72 +1,133 @@
 # Nexcent
 
-Верстка лендинга **Nexcent** по макету из Figma. Статический сайт на чистом HTML/CSS/JS — без сборки и зависимостей.
+[![Demo](https://img.shields.io/badge/demo-live-success)](https://landing-nexcent.netlify.app/)
 
-landing-nexcent.netlify.app
+**Live Demo:** https://landing-nexcent.netlify.app/
 
-## Стек
+Адаптивный landing page **Nexcent**, созданный по макету из Figma с использованием чистого HTML, CSS и Vanilla JavaScript.
 
-- **HTML5** — семантическая разметка, один экран `index.html`
-- **CSS3** — кастомные свойства, `clamp()` для адаптивной типографики, Grid/Flexbox
-- **Vanilla JS** — слайдер и мобильное меню, без библиотек
-- Шрифт [Inter](https://fonts.google.com/specimen/Inter) с Google Fonts
+Проект реализован без фреймворков и сборщиков. Основное внимание уделено responsive design, семантической разметке, современной CSS-вёрстке и интерактивности на JavaScript.
 
-## Структура проекта
+## ✨ Features
 
-```
-nexcent/
-├── index.html              # Главная страница
+* Fully responsive layout
+* Mobile burger menu
+* Hero slider
+* Slider navigation
+* Slider autoplay
+* Semantic HTML5
+* CSS Grid & Flexbox
+* Responsive typography with `clamp()`
+* Keyboard-friendly navigation
+* `aria-expanded` support
+* `Esc` key support
+* No JavaScript frameworks or libraries
+
+## 🛠️ Tech Stack
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* CSS Grid
+* Flexbox
+* CSS Custom Properties
+* Google Fonts
+
+## 📋 Project Overview
+
+Nexcent is a modern corporate landing page based on a Figma design.
+
+The page includes a hero slider, client logos, feature sections, statistics, product information, marketing cards, CTA and footer.
+
+The project was built from scratch with a focus on responsive behavior and clean frontend implementation without using UI frameworks.
+
+## 📁 Project Structure
+
+```text
+landing-nexcent/
+├── index.html
 └── assets/
     ├── css/
-    │   ├── reset.css       # Сброс стилей
-    │   └── main.css        # Все стили и медиазапросы
+    │   ├── reset.css
+    │   └── main.css
     ├── javascript/
-    │   └── main.js         # Бургер-меню и слайдер hero
-    ├── images/             # Изображения секций
-    └── design.png          # Референс макета
+    │   └── main.js
+    ├── images/
+    └── design.png
 ```
 
-## Секции страницы
+## 🎞️ JavaScript
 
-1. **Header** — логотип, навигация, Login / Sign up, бургер-меню на мобильных
-2. **Hero** — слайдер с 3 слайдами и точками-навигацией
-3. **Our Clients** — логотипы клиентов
-4. **Single system** — 3 карточки (Membership / Associations / Clubs)
-5. **Pixelgrade** — фича-блок с иллюстрацией
-6. **Stats** — счётчики (Members, Clubs, Event Bookings, Payments)
-7. **Design footer** — вторая фича-секция
-8. **Product** — отзыв клиента с логотипами партнеров
-9. **Marketing** — карточки блога
-10. **CTA** — «Get a Demo»
-11. **Footer** — логотип, соцсети, Company, Support, подписка на новости
+Vanilla JavaScript is used for interactive functionality:
 
-## Запуск
+* mobile navigation;
+* menu open / close behavior;
+* `aria-expanded` state;
+* closing the menu with `Esc`;
+* closing the menu when clicking outside;
+* hero slider;
+* slide navigation;
+* slider autoplay.
 
-Достаточно открыть `index.html` в браузере. Для локального сервера:
+## 📱 Responsive Design
+
+The layout is optimized for screens starting from **320px**.
+
+| Breakpoint | Behavior                                |
+| ---------- | --------------------------------------- |
+| `≥ 1100px` | Desktop navigation                      |
+| `≤ 1100px` | Mobile navigation                       |
+| `≤ 920px`  | Main sections switch to a column layout |
+| `≤ 770px`  | Additional content adjustments          |
+| `≤ 450px`  | Footer becomes a single column          |
+| `320px`    | No horizontal overflow                  |
+
+## 🚀 Getting Started
+
+No dependencies are required.
+
+Simply open:
+
+```text
+index.html
+```
+
+in your browser.
+
+Or start a local server:
 
 ```bash
-# Python
 python -m http.server 8080
-
-# или Node
-npx serve .
 ```
 
-## Адаптивность
+Then open:
 
-Верстка тестировалась от **320px** до десктопа:
+```text
+http://localhost:8080
+```
 
-| Ширина    | Поведение                                                     |
-|-----------|---------------------------------------------------------------|
-| ≥ 1100px  | Полноценное меню, все секции в исходном виде                  |
-| ≤ 1100px  | Бургер-меню (закрытие по клику на пункт, Esc, клик вне меню)  |
-| ≤ 920px   | Hero и фича-блоки в колонку, футер сеткой 2×2                 |
-| ≤ 770px   | Секции в колонку, центрирование текста                        |
-| ≤ 450px   | Футер в одну колонку, статистика с переносом                  |
-| 320px     | Без горизонтального переполнения                              |
+## 🎨 Design
 
-## Возможности JS (`assets/javascript/main.js`)
+The project was implemented based on a Figma design.
 
-- Открытие/закрытие мобильного меню с анимацией и `aria-expanded`
-- Слайдер hero: переключение точками, `translateX` по треку
-- Автопроигрывание слайдера (отключено константой `AUTOPLAY_ENABLED`)
+The design reference is included in:
+
+```text
+assets/design.png
+```
+
+## 🎯 Purpose
+
+This project was created to practice:
+
+* responsive web development;
+* semantic HTML;
+* modern CSS;
+* CSS Grid and Flexbox;
+* Vanilla JavaScript;
+* accessibility;
+* Figma-to-code implementation.
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
